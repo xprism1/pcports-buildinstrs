@@ -37,5 +37,9 @@ sm64pc/src/game/envfx_snow.c
 sm64pc/src/game/envfx_bubbles.c
    
 sm64pc/src/game/save_file.c
+
+sm64pc/src/pc/controller/controller_keyboard.c
+
+sm64pc/src/pc/controller/controller_sdl.c
    
 (e) `make CROSS=i686-w64-mingw32.static- WINDOWS_BUILD=1`
