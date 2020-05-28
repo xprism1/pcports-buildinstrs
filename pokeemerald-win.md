@@ -1,4 +1,4 @@
-# pokeemerald_pc
+# pokeemerald
 
 Build instructions for the PC port of `pokeemerald`, in WSL (Ubuntu 18.04 LTS).
 
@@ -21,9 +21,8 @@ chmod +x build_tools.sh
 ```
 
 ## 3. Building PC port
-```
-wget <insert link>
-```
+Download the MinGW version of SDL2 from https://www.libsdl.org/download-2.0.php (i.e. `wget https://www.libsdl.org/release/SDL2-devel-2.0.12-mingw.tar.gz`)
+
 Extract `SDL2-devel-2.0.12-mingw.tar/SDL2-2.0.12/i686-w64-mingw32` to `pokeemerald/SDL2-2.0.12`
 
 Open `pokeemerald/Makefile_pc`, replace the path specified in `SDL_DIR :=` to the path to your SDL2-2.0.12 folder (that you extracted in the previous step).
