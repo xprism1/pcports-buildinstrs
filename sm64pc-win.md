@@ -30,7 +30,7 @@ Build instructions for a Windows executable in Ubuntu, using MXE. Tested working
 #define bzero(b,len) (memset((b), '\0', (len)), (void) 0)  
 #define bcopy(b1,b2,len) (memmove((b2), (b1), (len)), (void) 0)
 ```
-at the start of the following files:
+to the following files:
    
 sm64pc/src/game/envfx_snow.c
 
