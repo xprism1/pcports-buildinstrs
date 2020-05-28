@@ -1,6 +1,6 @@
 # sm64pc
 
-Build instructions for a Windows executable in Ubuntu, using MXE. Tested working with WSL.
+Build instructions for a Windows executable in Ubuntu, using MXE. Tested working with WSL (Ubuntu 18.04 LTS).
 
 ## 1. Installing MXE
 (a) `git clone https://github.com/mxe/mxe.git`
@@ -21,7 +21,7 @@ Build instructions for a Windows executable in Ubuntu, using MXE. Tested working
 ## 3. Building sm64pc
 (a) `git clone https://github.com/sm64pc/sm64pc.git --branch master --single-branch`
 
-(b) `cd sm64pc`, copy `baserom.us.z64` to current directory
+(b) `cd sm64pc`, rename a SM64 US ROM to `baserom.us.z64` and copy it to current directory
 
 (c) Replace all occurences of `-no-pie` in Makefile to `-fno-pie`
 
