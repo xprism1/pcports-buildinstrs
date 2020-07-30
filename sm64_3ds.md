@@ -21,15 +21,15 @@ For each version (jp/us/eu) that you want to build a ROM for, put an existing RO
 #### 2. Install build dependencies
 
 The build system has the following package requirements:
- * python3 >= 3.6
- * libaudiofile
- * devkitPro
- ```
-   ├──devkitARM
-   ├──3dstools
-   ├──citro3d
-   ├──libctru
-   └──picasso
+```
+python3 >= 3.6
+libaudiofile
+devkitPro
+├──devkitARM
+├──3dstools
+├──citro3d
+├──libctru
+└──picasso
 ```
 
 __Debian / Ubuntu__
