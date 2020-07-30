@@ -23,7 +23,12 @@ For each version (jp/us/eu) that you want to build a ROM for, put an existing RO
 The build system has the following package requirements:
  * python3 >= 3.6
  * libaudiofile
- * devkitARM
+ * devkitPro
+   ├──devkitARM
+   ├──3dstools
+   ├──citro3d
+   ├──libctru
+   └──picasso
 
 __Debian / Ubuntu__
 ```
@@ -45,8 +50,8 @@ is not too long or else this process will error, as the emulated IDO compiler ca
 handle paths longer than 255 characters.
 Examples:
 ```
+make -j4                  # build (U) version with 4 jobs
 make VERSION=jp -j4       # build (J) version instead with 4 jobs
-make VERSION=eu COMPARE=0 # build (EU) version but do not compare ROM hashes
 ```
 
 ## Windows
