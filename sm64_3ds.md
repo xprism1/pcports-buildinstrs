@@ -24,6 +24,7 @@ The build system has the following package requirements:
  * python3 >= 3.6
  * libaudiofile
  * devkitPro
+ 
    ├──devkitARM
    ├──3dstools
    ├──citro3d
