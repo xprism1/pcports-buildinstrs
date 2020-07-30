@@ -26,6 +26,8 @@ python3 >= 3.6
 libaudiofile
 devkitPro
 ├──devkitARM
+├──devkitarm-crtls
+├──devkitarm-rules
 ├──3dstools
 ├──citro3d
 ├──libctru
