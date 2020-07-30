@@ -24,12 +24,13 @@ The build system has the following package requirements:
  * python3 >= 3.6
  * libaudiofile
  * devkitPro
- 
+ ```
    ├──devkitARM
    ├──3dstools
    ├──citro3d
    ├──libctru
    └──picasso
+```
 
 __Debian / Ubuntu__
 ```
@@ -58,7 +59,7 @@ make VERSION=jp -j4       # build (J) version instead with 4 jobs
 ## Windows
 
 For Windows, install devkitPro by following
-[devkitPro Installation Guide for Windows](https://devkitpro.org/wiki/Getting_Started#Windows)
+[devkitPro Installation Guide for Windows](https://devkitpro.org/wiki/Getting_Started#Windows).
 
 Then follow the directions in the [Linux](#linux) installation section above, using MSYS to execute commands.
 
